@@ -1,0 +1,5 @@
+nxe2000_pmic.c:244:12:pmic_chrg_get_type	0	static
+nxe2000_pmic.c:221:12:pmic_charger_bat_present	24	static
+nxe2000_pmic.c:176:12:pmic_charger_state	24	static
+nxe2000_pmic.c:131:5:nxe2000_set_vol	32	static
+nxe2000_pmic.c:255:5:power_pmic_init	8	static

@@ -1,0 +1,87 @@
+include/autoconf.mk: \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/include/common.h \
+ include/config.h include/config_cmd_defaults.h include/config_defaults.h \
+ include/configs/s5p4418_lepus.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/arch-s5p4418/platform.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/arch-s5p4418/s5p4418.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/arch-s5p4418/s5p4418_irq.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_clkpwr.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/../base/nx_prototype.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/../base/nx_type.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/../base/nx_debug.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/../base/nx_chip.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/../base/nx_clockcontrol.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/../base/nx_bit_accessor.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/base/nx_type.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_clkgen.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_rstcon.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_tieoff.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/../base/nx_type.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_mcus.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_timer.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_alive.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_gpio.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_displaytop.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_disptop_clkgen.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_dualdisplay.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_mlc.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_dualdisplay.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_dpc.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_displaytop.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_mlc.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_dpc.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_lcdif.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_resconv.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_lvds.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_mipi.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_hdmi.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_ecid.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_i2c.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_i2s.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_sdmmc.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_ssp.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_rtc.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_mpegtsi.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_vip.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/s5p4418/prototype/module/nx_wdt.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/board/s5p4418/common/cfg_type.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/board/s5p4418/lepus/include/cfg_gpio.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/board/s5p4418/lepus/include/cfg_main.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/board/s5p4418/lepus/include/cfg_mem.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/arch-s5p4418/hardware.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/arch-s5p4418/linux-types.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/config.h \
+ include/config_fallbacks.h include/config_uncmd_spl.h \
+ include/asm-offsets.h include/linux/bitops.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/types.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/bitops.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/proc-armv/system.h \
+ include/linux/types.h include/linux/posix_types.h include/linux/stddef.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/posix_types.h \
+ /home/ddanggzi/lepus/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
+ include/linux/string.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/string.h \
+ include/linux/linux_string.h include/linux/stringify.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/ptrace.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/proc-armv/ptrace.h \
+ /home/ddanggzi/lepus/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdarg.h \
+ include/part.h include/ide.h include/common.h include/flash.h \
+ include/image.h include/compiler.h \
+ /home/ddanggzi/lepus/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stddef.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/byteorder.h \
+ include/linux/byteorder/little_endian.h include/linux/compiler.h \
+ include/linux/compiler-gcc.h include/linux/compiler-gcc4.h \
+ include/linux/byteorder/swab.h include/linux/byteorder/generic.h \
+ include/lmb.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/u-boot.h \
+ include/asm-generic/u-boot.h include/command.h include/linker_lists.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/global_data.h \
+ include/asm-generic/global_data.h include/linux/list.h \
+ include/linux/poison.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/mach-types.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/setup.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/u-boot-arm.h \
+ include/uuid.h include/vsprintf.h include/u-boot/crc.h include/net.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/cache.h \
+ /home/ddanggzi/lepus/linux/bootloader/u-boot-2014.07/arch/arm/include/asm/system.h \
+ include/bootstage.h include/environment.h

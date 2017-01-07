@@ -1,0 +1,6 @@
+nxe2000_power.c:57:12:0	16	static
+nxe2000_power.c:66:12:1	24	static
+nxe2000_power.c:75:4:nxe2000_get_ldo_step	8	static
+nxe2000_power.c:138:4:nxe2000_get_dcdc_step	8	static
+nxe2000_power.c:1049:5:power_pmic_function_init	8	static
+nxe2000_power.c:1065:5:bd_pmic_init	48	static

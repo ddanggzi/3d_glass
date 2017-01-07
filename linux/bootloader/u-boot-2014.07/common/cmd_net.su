@@ -1,0 +1,3 @@
+cmd_net.c:179:12:netboot_common	64	static
+cmd_net.c:17:12:do_bootp	0	static
+cmd_net.c:28:5:do_tftpb	16	static

@@ -1,0 +1,2 @@
+regdump.c:9:14:GetADDR	8	static
+regdump.c:37:6:GetREG	0	static

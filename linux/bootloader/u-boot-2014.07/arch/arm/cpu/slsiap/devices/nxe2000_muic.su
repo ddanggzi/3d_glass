@@ -1,0 +1,2 @@
+nxe2000_muic.c:66:12:muic_chrg_get_type	24	static
+nxe2000_muic.c:453:5:power_nxe2000_muic_init	8	static

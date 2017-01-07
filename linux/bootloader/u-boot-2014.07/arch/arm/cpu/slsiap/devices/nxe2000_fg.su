@@ -1,0 +1,4 @@
+nxe2000_fg.c:83:12:power_update_battery	32	static
+nxe2000_fg.c:121:12:power_check_battery	40	static
+nxe2000_fg.c:69:12:power_check_ibatt	32	static
+nxe2000_fg.c:188:5:power_nxe2000_fg_init	8	static

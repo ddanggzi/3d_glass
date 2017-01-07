@@ -1,0 +1,3 @@
+nxe2000_bat.c:62:12:power_battery_init_nxe2000	0	static
+nxe2000_bat.c:34:12:power_battery_charge	24	static
+nxe2000_bat.c:84:5:power_nxe2000_bat_init	8	static
