@@ -1,0 +1,2 @@
+/home/ddanggzi/lepus/linux/platform/s5p4418/modules/coda960/nx_vpu.ko
+/home/ddanggzi/lepus/linux/platform/s5p4418/modules/coda960/linux/linux_vpu_drv.o /home/ddanggzi/lepus/linux/platform/s5p4418/modules/coda960/osapi/drv_osapi_linux.o /home/ddanggzi/lepus/linux/platform/s5p4418/modules/coda960/src/vpu_hw_interface.o /home/ddanggzi/lepus/linux/platform/s5p4418/modules/coda960/src/nx_jpu_api.o /home/ddanggzi/lepus/linux/platform/s5p4418/modules/coda960/src/nx_vpu_api.o /home/ddanggzi/lepus/linux/platform/s5p4418/modules/coda960/src/nx_vpu_gdi.o
