@@ -1,0 +1,17 @@
+.*
+*.o
+!.gitignore
+external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2.zip
+prebuilts/eclipse/platform/org.eclipse.platform-3.7.2.zip
+prebuilts/sdk/tools/windows/libLLVM.dll
+prebuilts/sdk/tools/windows/libclang.dll
+prebuilts/clang/linux-x86/host/3.4/bin/clang
+prebuilts/qemu-kernel/x86_64/vmlinux-qemu
+linux/platform/common/tools/crosstools/gcc-linaro-4.9-2014.11-x86_64_aarch64-linux-gnu.tar.gz
+linux/platform/common/tools/crosstools/arm-cortex_a9-eabi-4.7-eglibc-2.18.tar.gz
+linux/platform/common/tools/crosstools/gcc-linaro-4.9-2014.11-x86_64_arm-linux-gnueabihf.tar.xz
+linux/kernel/kernel-3.4.39/.tmp_vmlinux2
+linux/kernel/kernel-3.4.39/.tmp_vmlinux1
+linux/kernel/kernel-3.4.39/vmlinux.o
+linux/kernel/kernel-3.4.39/vmlinux
+

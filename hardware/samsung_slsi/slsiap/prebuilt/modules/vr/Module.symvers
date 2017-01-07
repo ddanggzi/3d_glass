@@ -1,0 +1,7 @@
+0x00000000	vr_perf_set_num_pp_cores	/home/ddanggzi/lepus/hardware/samsung_slsi/slsiap/prebuilt/modules/vr/vr	EXPORT_SYMBOL
+0x00000000	vr_dev_resume	/home/ddanggzi/lepus/hardware/samsung_slsi/slsiap/prebuilt/modules/vr/vr	EXPORT_SYMBOL
+0x00000000	vr_set_user_setting	/home/ddanggzi/lepus/hardware/samsung_slsi/slsiap/prebuilt/modules/vr/vr	EXPORT_SYMBOL
+0x00000000	vr_get_user_setting	/home/ddanggzi/lepus/hardware/samsung_slsi/slsiap/prebuilt/modules/vr/vr	EXPORT_SYMBOL
+0x00000000	vr_pmu_powerup	/home/ddanggzi/lepus/hardware/samsung_slsi/slsiap/prebuilt/modules/vr/vr	EXPORT_SYMBOL
+0x00000000	vr_pmu_powerdown	/home/ddanggzi/lepus/hardware/samsung_slsi/slsiap/prebuilt/modules/vr/vr	EXPORT_SYMBOL
+0x00000000	vr_dev_pause	/home/ddanggzi/lepus/hardware/samsung_slsi/slsiap/prebuilt/modules/vr/vr	EXPORT_SYMBOL
