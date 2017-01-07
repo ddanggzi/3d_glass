@@ -1,6 +1,6 @@
-*.o
 *.cmd
 !.gitignore
+linux/**/*.o
 external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2.zip
 prebuilts/eclipse/platform/org.eclipse.platform-3.7.2.zip
 prebuilts/sdk/tools/windows/libLLVM.dll
