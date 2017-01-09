@@ -14,4 +14,5 @@ linux/kernel/kernel-3.4.39/.tmp_vmlinux2
 linux/kernel/kernel-3.4.39/.tmp_vmlinux1
 linux/kernel/kernel-3.4.39/vmlinux.o
 linux/kernel/kernel-3.4.39/vmlinux
-
+linux/platform/s5p4418/modules/coda960/nx_vpu.ko
+text2.txt
