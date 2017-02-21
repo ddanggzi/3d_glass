@@ -3,7 +3,7 @@
 #define	WRITE_CMD		0x02
 #define	WRITE_ENABLE	0x06
 
-#define	ADDR_BYTE	3
+#define	ADDR_BYTE	1
 #define	CMD_LEN		1
 
 #define	CMD_BUF ADDR_BYTE + CMD_LEN
@@ -22,7 +22,9 @@ static uint16_t delay;
 
 int spi_init(int fd);
 
-int spi_read(int fd, int offset, char * addr, int size);	//offset : 24bit addr read start addr
+//int spi_read(int fd, int offset, char * addr, int size);	//offset : 24bit addr read start addr
+int spi_read(int fd, int offset, uint8_t * addr, int size);	//offset : 24bit addr read start addr
 int spi_blk_erase(int fd,int addr);						//erase Block 64K
 int spi_write_enable(int fd);							
-int spi_write(int fd ,int dst, char * addr, int size);
+//int spi_write(int fd ,int dst, char * addr, int size);
+int spi_write(int fd ,int dst, uint8_t * addr, int size);

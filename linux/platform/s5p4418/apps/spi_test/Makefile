@@ -1,4 +1,6 @@
 
+# Get Linux Build Enviornment:
+include ../../build.env
 ######################################################################
 # Build options
 LIBRARY	+=-lpthread
@@ -10,8 +12,8 @@ COBJS  	:= spi_test.o
 CPPOBJS	:=
 TARGET 	:= spi_test
 
-CROSS_COMPILE = arm-cortex_a9-linux-gnueabi-
-CC		= $(CROSS_COMPILE)gcc
+#CROSS_COMPILE = arm-cortex_a9-linux-gnueabi-
+#CC		= $(CROSS_COMPILE)gcc
 #CC :=gcc 
 
 ######################################################################
