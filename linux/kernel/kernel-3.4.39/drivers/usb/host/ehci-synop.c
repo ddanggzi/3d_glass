@@ -262,6 +262,9 @@ static int __devinit nxp_ehci_probe(struct platform_device *pdev)
 	INIT_DELAYED_WORK(&nxp_ehci->resume_work, nxp_ehci_resume_work);
 	wake_lock_init(&nxp_ehci->resume_lock, WAKE_LOCK_SUSPEND, "nxp-ehci");
 #endif
+    // Added by ddanggzi for USB 5V UP
+	nxp_soc_gpio_set_io_dir( PAD_GPIO_D+30, 1); // USB HOST 5V UP
+	nxp_soc_gpio_set_out_value(PAD_GPIO_D+30, 1);
 	return 0;
 
 fail:
@@ -328,6 +331,9 @@ static int nxp_ehci_suspend(struct device *dev)
 	unsigned long flags;
 	int rc = 0;
 
+    // Added by ddanggzi for USB 5V Enable pin down
+    nxp_soc_gpio_set_out_value(PAD_GPIO_D+30, 0);
+	
 	/*
 	 * If we have an otg driver, the otg wakelock blocks suspend while
 	 * we are in host mode. When you unplug the host cable, the otg driver
@@ -450,6 +456,10 @@ static void nxp_ehci_resume_work(struct work_struct *work)
 
 static int nxp_ehci_resume(struct device *dev)
 {
+
+    // Added by ddanggzi for USB 5V Enable pin up
+    nxp_soc_gpio_set_out_value(PAD_GPIO_D+30, 1);
+	   
 #ifndef CONFIG_USB_EHCI_SYNOPSYS_RESUME_WORK
 	struct nxp_ehci_hcd *nxp_ehci = dev_get_drvdata(dev);
 	struct usb_hcd *hcd = nxp_ehci->hcd;
@@ -527,6 +537,10 @@ static int nxp_ehci_resume(struct device *dev)
 				msecs_to_jiffies(nxp_ehci->delay_time));
 	#endif
 #endif
+
+    
+ 
+	
 	return 0;
 }
 #else
