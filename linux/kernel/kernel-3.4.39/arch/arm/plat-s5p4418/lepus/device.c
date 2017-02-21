@@ -1779,7 +1779,18 @@ static int _dwmci2_init(u32 slot_id, irq_handler_t handler, void *data)
 static int _dwmci2_get_cd(u32 slot_id)
 {
 	int io = CFG_SDMMC2_DETECT_IO;
+// Modified by ddanggzi	for cd detect pin low --> high 
+#if 0
 	return nxp_soc_gpio_get_in_value(io);
+#else
+    int i = 0;
+    i = nxp_soc_gpio_get_in_value(io);
+	if( i ) i = 0;
+	else i = 1;
+	
+	return i;
+#endif
+// ddanggzi -- end
 }
 
 static struct dw_mci_board _dwmci2_data = {
