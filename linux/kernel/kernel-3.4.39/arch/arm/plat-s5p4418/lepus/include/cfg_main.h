@@ -107,19 +107,26 @@
 #define	CFG_DISP_PRI_LCD_WIDTH_MM				1 //154
 #define	CFG_DISP_PRI_LCD_HEIGHT_MM				1 //85
 
-#define CFG_DISP_PRI_RESOL_WIDTH          		1024	// X Resolution
-#define CFG_DISP_PRI_RESOL_HEIGHT				600	// Y Resolution
+// Modified by ddanggzi
+//#define CFG_DISP_PRI_RESOL_WIDTH          		1024	// X Resolution
+//#define CFG_DISP_PRI_RESOL_HEIGHT				600	// Y Resolution
 
-//#define CFG_DISP_PRI_RESOL_WIDTH          		800	// X Resolution
-//#define CFG_DISP_PRI_RESOL_HEIGHT				480	// Y Resolution
+#define CFG_DISP_PRI_RESOL_WIDTH          		800	// X Resolution
+#define CFG_DISP_PRI_RESOL_HEIGHT				480	// Y Resolution
 
-#define CFG_DISP_PRI_HSYNC_SYNC_WIDTH           1// 20
-#define CFG_DISP_PRI_HSYNC_BACK_PORCH           1//160
-#define CFG_DISP_PRI_HSYNC_FRONT_PORCH          1//160
+#define CFG_DISP_PRI_HSYNC_SYNC_WIDTH           20
+
+// Modified by ddanggzi
+//#define CFG_DISP_PRI_HSYNC_BACK_PORCH           160
+//#define CFG_DISP_PRI_HSYNC_FRONT_PORCH          160
+#define CFG_DISP_PRI_HSYNC_BACK_PORCH           50
+#define CFG_DISP_PRI_HSYNC_FRONT_PORCH          50
+
+
 #define CFG_DISP_PRI_HSYNC_ACTIVE_HIGH          CTRUE
-#define CFG_DISP_PRI_VSYNC_SYNC_WIDTH           1// 3
-#define CFG_DISP_PRI_VSYNC_BACK_PORCH           1// 23
-#define CFG_DISP_PRI_VSYNC_FRONT_PORCH          1// 12
+#define CFG_DISP_PRI_VSYNC_SYNC_WIDTH           3
+#define CFG_DISP_PRI_VSYNC_BACK_PORCH           23
+#define CFG_DISP_PRI_VSYNC_FRONT_PORCH          12
 #define CFG_DISP_PRI_VSYNC_ACTIVE_HIGH 	        CTRUE
 
 #define CFG_DISP_PRI_CLKGEN0_SOURCE             DPC_VCLK_SRC_PLL2

@@ -97,12 +97,22 @@
 
 #define CFG_DISP_PRI_MLC_INTERLACE              CFALSE
 
-#define CFG_DISP_PRI_RESOL_WIDTH        1024	// X Resolution
-#define CFG_DISP_PRI_RESOL_HEIGHT		600	// Y Resolution
+
+// Modified by ddanggzi
+//#define CFG_DISP_PRI_RESOL_WIDTH        1024	// X Resolution
+//#define CFG_DISP_PRI_RESOL_HEIGHT		600	// Y Resolution
+#define CFG_DISP_PRI_RESOL_WIDTH        800	// X Resolution
+#define CFG_DISP_PRI_RESOL_HEIGHT		480	// Y Resolution
+
 
 #define CFG_DISP_PRI_HSYNC_SYNC_WIDTH           20
-#define CFG_DISP_PRI_HSYNC_BACK_PORCH           160
-#define CFG_DISP_PRI_HSYNC_FRONT_PORCH          160
+
+// Modified by ddanggzi
+//#define CFG_DISP_PRI_HSYNC_BACK_PORCH           160
+//#define CFG_DISP_PRI_HSYNC_FRONT_PORCH          160
+#define CFG_DISP_PRI_HSYNC_BACK_PORCH           50
+#define CFG_DISP_PRI_HSYNC_FRONT_PORCH          50
+
 #define CFG_DISP_PRI_HSYNC_ACTIVE_HIGH          CTRUE
 #define CFG_DISP_PRI_VSYNC_SYNC_WIDTH           3
 #define CFG_DISP_PRI_VSYNC_BACK_PORCH           23
